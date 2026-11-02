@@ -1,0 +1,31 @@
+# Executables et fichiers de compilation (recrees par le notebook)
+bin/
+*.exe
+*.obj
+*.lib
+*.exp
+
+# CSV temporaires des mesures (fusionnes dans donnees/mesures_cuda.xlsx puis supprimes)
+stats*.csv
+
+# Sujet de départ (document du cours)
+enonce/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editeur et fichiers temporaires Excel
+.vscode/
+*.code-workspace
+~$*.xlsx
+
+# Notes personnelles
+instructions.md
+
+# Fichiers internes de l'assistant
+.claude/
+
+# Archive de rendu
+*.zip
